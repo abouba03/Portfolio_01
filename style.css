@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    color: aliceblue;
+}
+.home{
+    position: relative;
+    width: 100%;
+    min-height: 800px;
+    background-image: linear-gradient(#020202, #463232);
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.liens{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.socialMedia {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 190px 0 0 30px;
+    z-index: 1;
+}
+.homeContenue{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 5px;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(#463232, rgb(7, 7, 7));
+    padding-bottom: 100px;
+}
+.partie1{
+    padding-top: 30px;
+    position: relative;
+    margin-left: 40px;
+    width: 40%;
+}
+.partie2{
+    padding-top: 40px;
+    width: 55%;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bg-img{
+    position: absolute;
+    width: 330px;
+    height: 420px;
+    background: rgba(196, 196, 196, 0.25);
+    border-radius: 20px;
+    transform: rotate(-7.17deg);
+}
+.bg-img1{
+    position: relative;
+    width: 330px;
+    height: 420px;
+    background: #C4C4C4;
+    border-radius: 20px;
+}
+.nom, p{
+    font-size: 24px;
+}
+.liste-competences{
+    padding-top: 20px;
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea';
+    grid-column-gap: 200px;
+    grid-row-gap: 29px;
+}
+.items1{
+    grid-area: myArea;
+}
+.ligne{
+    height: 5px;
+    width: 58px;
+    background-color: rgb(155, 50, 12);
+    margin: 15px 0 0 10px;
+    border-radius: 3px;
+}
+.cercle{
+    color: rgb(155, 50, 12);
+    height: 15px;
+    width: 15px;
+    background-color:  rgb(155, 50, 12);
+    border-radius: 50%;
+    margin-right: 5px ;
+}
